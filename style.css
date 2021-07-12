@@ -32,18 +32,24 @@
 
 .languages{
     background-color: #d34545;
+    padding: 1em;
+        margin: 1em;
    
     
 }
 
-table, th, td {
+ th, td {
     border: 1px solid black;
+    
     
   }
   table{
     overflow-y:scroll;
    height:100px;
    display:block;
+   margin: 1em;
+   padding: 1em;
+   background-color: burlywood;
   }
 
   .histdata {
@@ -78,6 +84,17 @@ table, th, td {
         width: 100%;
     }
 
+    table{
+        overflow-y:hidden;
+       height:auto;
+       display:block;
+       width: 100%;
+       display:block;
+       margin: 0px;
+       padding: 0px;
+       background-color: burlywood;
+      }
+
     #cityPicture{
         width: 100%;
     }
@@ -98,6 +115,10 @@ table, th, td {
     .intro{
         display: flex;
         
+    }
+    .languages{
+        padding: 1em;
+        margin: 1em;
     }
 
     .intro > div {
