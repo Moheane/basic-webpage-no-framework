@@ -32,11 +32,18 @@
 
 .languages{
     background-color: #d34545;
+   
+    
 }
 
 table, th, td {
     border: 1px solid black;
-    overflow: scroll;
+    
+  }
+  table{
+    overflow-y:scroll;
+   height:100px;
+   display:block;
   }
 
   .histdata {
