@@ -1,0 +1,46 @@
+.avator{
+    width: 30%;
+    height: auto;
+    margin: 1em;
+}
+
+.main{
+    display: block;
+    background-color: rgb(203, 212, 221);
+}
+
+#cityPicture{
+    width: 100%;
+}
+.intro{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .histdata {
+      
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(203, 212, 221);
+  }
+  
+  .histdata > div {
+    background-color: #692424;
+    width: 100%;
+    font-size: 10px;
+    color: rgb(162, 184, 176);
+    margin: 1em;
+  }
+
+  .imgcity{
+      margin: 1em;
+      background-color: rgb(75, 179, 144);
+  }
+
+  .imgct{
+      height: auto;
+      width: 100%;
+  }
