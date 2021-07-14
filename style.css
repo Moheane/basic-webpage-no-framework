@@ -1,3 +1,11 @@
+:root {
+    --pimary: #eae2b7;
+    --secondary: #fcbf49;
+    --tertiary: #f77f00;
+    --extra: #003049;
+  }
+
+
 .avator{
     width: 80%;
     height: auto;
@@ -5,22 +13,7 @@
 }
 .names{
     padding: 1em;
-    color: lawngreen;
-}
-
-.city{
-    background-color: #d34545;
-    padding: 1em;
-}
-.main{
-    padding: 1em;
-    display: block;
-    background-color: rgb(202, 153, 194);
-}
-
-#cityPicture{
-    width: 100%;
-    margin: 2em;
+    color: var(--secondary);
 }
 .intro{
     text-align: center;
@@ -29,17 +22,34 @@
     background-size: cover;
     margin: 1em;
 }
+.city{
+    background-color: var(--extra);
+    padding: 1em;
+    color: var(--pimary);
+}
+.main{
+    padding: 1em;
+    display: block;
+    background-color: var(--pimary);
+}
+
+#cityPicture{
+    width: 100%;
+    margin: 2em;
+}
+
 
 .languages{
-    background-color: #d34545;
+    background-color: var(--extra);
     padding: 1em;
         margin: 1em;
+        color: var(--pimary);
    
     
 }
 
  th, td {
-    border: 1px solid black;
+    border: 1px solid --extra;
     
     
   }
@@ -49,28 +59,28 @@
    display:block;
    margin: 1em;
    padding: 1em;
-   background-color: burlywood;
+   background-color: var(--tertiary);
   }
 
   .histdata {
       
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(203, 212, 221);
+    background-color: var(--extra);
     
   }
   
   .histdata > div {
-    background-color: #d34545;
+    background-color:var(--pimary);
     width: 100%;
     font-size: 10px;
-    color: rgb(162, 184, 176);
+    color: var(--extra);
     margin: .0em;
   }
 
   .imgcity{
       margin: 1em;
-    
+     
   }
 
   .imgct{
@@ -92,8 +102,8 @@
        display:block;
        margin: 0px;
        padding: 0px;
-       background-color: burlywood;
-      }
+       background-color: var(--secondary);
+    }
 
     #cityPicture{
         width: 100%;
@@ -103,9 +113,9 @@
     }
     
     .cityrap > div {
-        background-color: rgb(137, 147, 156);
+        background-color:var(--pimary);
         width: 100%;
-        color: rgb(236, 236, 232);
+        color: var(--tertiary);
         font-size: medium;
         
       }
@@ -124,7 +134,7 @@
     .intro > div {
        
         width: 100%;
-        color: burlywood;
+        color: var(--secondary);
         font-size: medium;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 900;
@@ -151,17 +161,17 @@
         
       }
       .histdata {
-        color: rgb(174, 231, 40);
+        color: var(--secondary);
         display: flex;
     
-        background-color: rgb(203, 212, 221);
+        background-color: var(--tertiary);
       }
 
       .histdata > div {
-        background-color: rgb(203, 212, 221);
+        background-color:var(--pimary);
         width: 100%;
         font-size: 10px;
-        color: rgb(23, 25, 27);
+        color: var(--extra);
         margin: 1em;
       }
 
