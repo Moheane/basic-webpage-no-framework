@@ -5,7 +5,6 @@
     --extra: #003049;
   }
 
-
 .avator{
     width: 80%;
     height: auto;
@@ -17,9 +16,7 @@
 }
 .intro{
     text-align: center;
-    background-image: url(/static/table.jpg);
-    background-repeat: repeat;
-    background-size: cover;
+    
     margin: 1em;
 }
 .city{
@@ -31,6 +28,9 @@
     padding: 1em;
     display: block;
     background-color: var(--pimary);
+    background-image: url(/static/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cityPicture{
