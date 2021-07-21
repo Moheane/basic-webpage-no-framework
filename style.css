@@ -28,7 +28,7 @@
     padding: 1em;
     display: block;
     background-color: var(--pimary);
-    background-image: url(/static/table.jpg);
+    background-image: url(./static/table.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
